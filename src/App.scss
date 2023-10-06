@@ -1,0 +1,149 @@
+:root {
+  --font-color: #000;
+  --background-color: #fff;
+  --link-color: cornflowerblue;
+}
+
+.dark-mode {
+  --font-color: #fff;
+  --background-color: #333;
+  --link-color: cornflowerblue;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+h1 {
+  color: var(--text-color);
+}
+
+.task__list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.task__item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.task__item h3 {
+  display: inline-block;
+  margin: 0;
+}
+
+.task__item button {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: #780000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.task__item button:hover {
+  background-color: #c1121f;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 0.75rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 0.75rem rgba(255, 154, 90, 0.5);
+}
+
+.task__form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task__form input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task__form button {
+  background-color: #588157;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 10px 20px;
+}
+
+.task__form button:hover {
+  background-color: #4cae4c;
+}
+
+.filter__buttons button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  background-color: #a3b18a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter__buttons button:hover {
+  background-color: #6a994e;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 0.75rem rgba(52, 78, 65, 0.5),
+    0.125rem 0.125rem 0.75rem rgba(85.5, 84.3, 80.4, 0.5);
+}
+
+.dark-mode-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dark-mode-button {
+  font-size: 40px;
+  color: var(--font-color);
+}
+
+ul {
+  list-style: none;
+}
+
+li:hover {
+  color: #c1121f;
+  font-weight: bold;
+}
+.beer__img {
+  margin-left: 10px;
+  width: 50px;
+  height: 120px;
+}
+
+.beer__button {
+  background-color: #588157;
+  margin-bottom: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 10px 20px;
+}
